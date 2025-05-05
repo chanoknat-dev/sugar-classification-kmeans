@@ -1,18 +1,17 @@
 # Classification of Sugar Solutions Using Clustering
 
-This project uses Python and K-means clustering to classify sugar solutions based on conductivity, sweetness (Brix),  and pH values.  
-It includes data preprocessing, clustering, and visualization to improve the accuracy of sugar solution classification.
+This project uses KMeans clustering to classify sugar solutions based on pH and Brix values.  
+The aim is to separate real and fake sugar samples through data preprocessing and visualization.
 
-## Features
-- Data preprocessing (handling missing values, normalization)
-- K-means clustering implementation
-- Visualization of clustering results
-- Accuracy improvement through parameter tuning
+## Files
 
-## Technologies Used
-- Python (pandas, scikit-learn, matplotlib, seaborn)
-- This project was developed using Python scripts (.py), primarily in the Spyder IDE, rather than Jupyter Notebook.
+- `kmeans_clustering.py` — Main Python script performing clustering.
+- `kmeans_all.csv` — Input dataset (not included in this repository; please provide your own).
 
-## How to Run
-1. Clone this repository:
+## Install Dependencies
+
+To install the necessary Python libraries, run:
+
+```bash
+pip install -r requirements.txt
 
